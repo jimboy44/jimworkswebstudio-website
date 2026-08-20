@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="JIM WORKS WEB STUDIO - Affordable, professional CMS website development using WordPress, Joomla and Drupal.">
+  <title>JIM WORKS WEB STUDIO | Professional CMS Websites</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#home"><img src="assets/logo_jim.png" alt="JIM WORKS WEB STUDIO website development services"></a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#process">How It Works</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#application">Request a Website</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">WORDPRESS • JOOMLA • DRUPAL</p>
+      <h1>Professional Websites That <span>Work for Your Business.</span></h1>
+      <p class="lead">Affordable, responsive and easy-to-manage CMS websites for businesses, organizations, entrepreneurs, news sites, portfolios and online services.</p>
+      <div class="hero-buttons">
+        <a class="btn primary" href="#application">Apply for a Website</a>
+        <a class="btn secondary" href="#services">View Services</a>
+      </div>
+      <div class="trust-row">
+        <span>✓ Affordable</span><span>✓ Mobile Friendly</span><span>✓ SEO Ready</span><span>✓ Easy to Manage</span>
+      </div>
+    </div>
+    <div class="hero-art">
+      <img src="assets/jim-works-promo.png" alt="JIM WORKS WEB STUDIO website development services">
+    </div>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">OUR SERVICES</p>
+      <h2>Choose the website your organization needs.</h2>
+      <p>We build customized CMS websites based on your goals, content, features and budget.</p>
+    </div>
+    <div class="cards">
+      <article class="card"><div class="icon">🏢</div><h3>Business Websites</h3><p>Professional company websites that present your services, products, contact details and brand.</p></article>
+      <article class="card"><div class="icon">📰</div><h3>News & Information</h3><p>CMS-powered publishing websites for news, announcements, articles and public information.</p></article>
+      <article class="card"><div class="icon">🛒</div><h3>E-Commerce</h3><p>Online shop solutions with products, categories, customer information and payment integration options.</p></article>
+      <article class="card"><div class="icon">🎨</div><h3>Portfolio Websites</h3><p>Modern portfolios for professionals, creatives, freelancers, photographers and organizations.</p></article>
+      <article class="card"><div class="icon">🏛️</div><h3>Organization Sites</h3><p>Websites for associations, offices, schools, community groups and public organizations.</p></article>
+      <article class="card"><div class="icon">🛠️</div><h3>Maintenance & Support</h3><p>Content updates, CMS assistance, basic troubleshooting and continuing website support.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="process" class="section dark">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">HOW IT WORKS</p>
+      <h2>From your idea to your online presence.</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><b>01</b><h3>Submit Application</h3><p>Tell us about your business, organization, preferred website and requirements.</p></div>
+      <div class="step"><b>02</b><h3>Review & Consultation</h3><p>We review your request and contact you to clarify scope, content, features and budget.</p></div>
+      <div class="step"><b>03</b><h3>Design & Development</h3><p>We create the website and configure the CMS according to the approved requirements.</p></div>
+      <div class="step"><b>04</b><h3>Approval & Launch</h3><p>After final review and approval, the website is prepared for deployment and launch.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section about">
+  <div class="container about-grid">
+    <div>
+      <p class="eyebrow">JIM WORKS WEB STUDIO</p>
+      <h2>Your vision. Our design. Your online presence.</h2>
+      <p>JIM WORKS WEB STUDIO provides affordable and customized CMS website development for businesses, organizations, entrepreneurs and institutions.</p>
+      <p>Our focus is to create websites that are professional, responsive, easy to manage and appropriate for each client's goals.</p>
+    </div>
+    <div class="contact-box">
+      <h3>Contact Information</h3>
+      <p>📍 Taft Avenue, Malate, Manila</p>
+      <p>☎ 0994 177 1629</p>
+      <p>✉ jimy43saberon@gmail.com</p>
+      <p>🌐 www.jimworkswebstudio.com</p>
+    </div>
+  </div>
+</section>
+
+<section id="application" class="section application">
+  <div class="container form-wrap">
+    <div class="section-head">
+      <p class="eyebrow">WEBSITE APPLICATION</p>
+      <h2>Tell us what website you want.</h2>
+      <p>Submit this application for initial verification and consultation. Final scope, pricing and development will be confirmed after review.</p>
+    </div>
+
+    <form id="websiteForm" action="contact.php" method="POST">
+      <div class="form-grid">
+        <label>Full Name *<input type="text" name="name" required maxlength="100"></label>
+        <label>Company / Organization *<input type="text" name="company" required maxlength="150"></label>
+        <label>Email Address *<input type="email" name="email" required maxlength="150"></label>
+        <label>Phone Number<input type="text" name="phone" maxlength="40"></label>
+        <label>Website Type *
+          <select name="website_type" required>
+            <option value="">Select one</option>
+            <option>Business Website</option>
+            <option>Corporate / Organization Website</option>
+            <option>News & Information Website</option>
+            <option>Portfolio / Personal Website</option>
+            <option>E-Commerce Website</option>
+            <option>Other CMS Website</option>
+          </select>
+        </label>
+        <label>Preferred CMS
+          <select name="cms">
+            <option value="">Not sure / Need advice</option>
+            <option>WordPress</option>
+            <option>Joomla</option>
+            <option>Drupal</option>
+          </select>
+        </label>
+        <label>Estimated Budget
+          <select name="budget">
+            <option value="">Please discuss</option>
+            <option>Below PHP 10,000</option>
+            <option>PHP 10,000 - 20,000</option>
+            <option>PHP 20,000 - 40,000</option>
+            <option>PHP 40,000 and above</option>
+          </select>
+        </label>
+        <label>Target Launch
+          <input type="text" name="launch_date" placeholder="Example: Within 30 days">
+        </label>
+      </div>
+
+      <label>Website Requirements / Message *
+        <textarea name="message" rows="7" required maxlength="5000" placeholder="Describe the pages, features, services, products, forms, news section, online store, etc. that you want."></textarea>
+      </label>
+
+      <label class="check">
+        <input type="checkbox" name="authorization" value="Yes" required>
+        I confirm that the information I provided is accurate and I am requesting an initial website consultation from JIM WORKS WEB STUDIO.
+      </label>
+
+      <button class="btn primary submit-btn" type="submit">Submit Website Application</button>
+      <p class="form-note">Applications are subject to review. Submission does not automatically constitute final approval, contract or payment obligation.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div><strong><img src="assets/logo_jim.png"</strong><p>Specializing in WordPress, Joomla & Drupal Sites</p></div>
+    <div><p>Taft Avenue, Malate, Manila</p><p>0994 177 1629 • jimy43saberon@gmail.com<br> Jimmy C. Saberon -IT Solutions Creator </p></div>
+  </div>
+  <div class="copyright">© <span id="year"></span> JIM WORKS WEB STUDIO. All rights reserved.</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
